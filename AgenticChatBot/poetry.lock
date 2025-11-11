@@ -3157,6 +3157,21 @@ snowflake = ["snowflake-connector-python (>=3.3.0) ; python_version < \"3.12\"",
 sql = ["SQLAlchemy (>=2.0.0)"]
 
 [[package]]
+name = "tavily"
+version = "1.1.0"
+description = "Simple API TAVILY"
+optional = false
+python-versions = ">=3.7"
+groups = ["main"]
+files = [
+    {file = "tavily-1.1.0.tar.gz", hash = "sha256:7730bf10c925dc0d0d84f27a8979de842ecf88c2882183409addd855e27d8fab"},
+]
+
+[package.dependencies]
+aiohttp = "*"
+requests = "*"
+
+[[package]]
 name = "tenacity"
 version = "9.1.2"
 description = "Retry code until it succeeds"
@@ -3829,4 +3844,4 @@ cffi = ["cffi (>=1.17,<2.0) ; platform_python_implementation != \"PyPy\" and pyt
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12, <3.13"
-content-hash = "e8b69552f504aeb6989ab568c14469e103f5f9a6b0fcd0c12f950a9b6ab38049"
+content-hash = "b0b5bfec23851e5f1cc794c51819f50b75ddbb6039fa01feb05178a1d5c307f5"
